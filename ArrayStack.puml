@@ -1,0 +1,18 @@
+
+Class ArrayStack<E>{
+   -data: int[]
+   -size: int
+   -{static} DEFAULT : int
+   
+   +ArrayStack()
+   +peek(): E
+   +push(E) : void
+   +pop() : E
+   -realloc(int newCap) : void
+   +clear() : void
+   +toString() : String
+   +isEmpty() : boolean
+   +size() : int
+   +equals(Object other) : boolean
+
+}
